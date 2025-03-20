@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -74,3 +73,23 @@ ul.menu {
     margin-top: 20px;
     text-align: center;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+li {
+    font-size: 1.5rem;
+    list-style: none;
+    margin-bottom: 15px;
+}
+

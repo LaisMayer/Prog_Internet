@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +10,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+
 }
 
 nav {
@@ -26,12 +26,14 @@ nav {
 .menu li {
     display: inline;
     margin-right: 20px;
+    text-align: center;
 }
 
 .menu li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    text-align: center;
 }
 
 .menu li a:hover {
@@ -43,6 +45,7 @@ nav {
     width: 150px;
     margin: 20px auto;
     display: block;
+    text-align: center;
 }
 
 h1 {
@@ -50,6 +53,7 @@ h1 {
     color: #333;
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -64,6 +68,7 @@ li p {
     color: #333;
     font-weight: bold;
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 .menu a:hover {
