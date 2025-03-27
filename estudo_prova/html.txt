@@ -1,0 +1,57 @@
+o que é html?
+não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura do seu conteúdo.
+
+
+<strong>negrito</strong>
+
+elemento vazio
+    - <img src="imagens/firefox-icon.png" alt="Minha imagem de teste" />
+    - não tem conteudo e nem tag de fechamento, por que ela se auto fecha
+
+lista
+
+    Listas não ordenadas - ordem dos itens não importa, como uma lista de compras
+    Listas Ordenadas - onde a ordem dos itens importa, como uma receita
+ul - lista
+li - topicos da lista
+a  - link
+<a href="https://www.mozilla.org/pt-BR/about/manifesto/"
+  >Mozilla Manifesto</a
+
+<html></html>   - envolve todo o conteúdo da página conhecido como o elemento raiz.
+<head></head>   - recipiente de tudo o que você deseja incluir em uma página HTML que não é o conteúdo que você quer mostrar para quem vê sua página.
+<title></title> - define o título da sua página
+<body></body>   - Contém todo o conteúdo que você quer mostrar ao público que visita sua página
+
+
+imagem 
+<img src="images/firefox-icon.png" alt="Minha imagem de teste" />
+
+<h1>Meu título principal</h1>
+<h2>Meu título de alto nível</h2>
+<h3>Meu subtítulo</h3>
+<h4>Meu segundo subtítulo</h4>
+
+
+o que é css?
+é uma linguagem de folhas de estilos
+
+
+    padding - o espaço ao redor do conteúdo (ex.: ao redor do texto de um parágrafo).
+    border - a linha sólida do lado de fora do padding.
+    margin, o espaço externo a um elemento.
+
+
+width - (largura de um elemento).
+background-color -  a cor atrás do conteúdo de um elemento e do padding.
+color -  a cor do conteúdo de um elemento (geralmente texto).
+text-shadow - cria uma sombra no texto dentro de um elemento.
+display - define a maneira de dispor um elemento (não se preocupe com isso ainda).
+
+
+imagem 
+    html {
+  font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+  font-family:
+    "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+}
